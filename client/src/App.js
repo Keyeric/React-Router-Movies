@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
-
+import { BrowserRouter as Router,Route,Link,Switch} from "react-router-dom";
+import Movie from "./Movies/Movie";
+import MovieCard from "./Movies/MovieCard";
+import MovieList from "./Movies/MovieList";
 import SavedList from './Movies/SavedList';
 
 const App = () => {
